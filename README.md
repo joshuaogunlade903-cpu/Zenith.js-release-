@@ -5,6 +5,9 @@ Simple: made from just js html and css
 Powerfull: Abstracts everything a pwa or spa needs with both raw and automated control
 Beginner-friendly: Its So simple that with adequate practice it should take about a week to learn
 
+TUTORIAL SITE:
+https://github.com/joshuaogunlade903-cpu/Zenith.js-release-.git
+
 ============================
 List Of Modules or APIs in Zenith.js
 
