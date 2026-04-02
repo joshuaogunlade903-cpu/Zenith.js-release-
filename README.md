@@ -1,4 +1,7 @@
-<h3>STOP BUILDING BRIDGES START BUILDING APPS THAT WORK NATIVE LIKE EVERYWHERE WITH ONE CODEBASE</h3>
+<h1>Zenith.js</h1>
+<h3>STOP BUILDING BRIDGES!!!</h3>
+<h3>START BUILDING APPS THAT WORK NATIVE LIKE ANYWHERE</h3>
+<h3>ALL WITH ONE CODEBASE</h3>
 Zenith.js is a micro clientside os Framework with masive capabilities
 Micro: it is small download size less than 80kb
 Self-contained: Contains everything that a pwa or spa will need
