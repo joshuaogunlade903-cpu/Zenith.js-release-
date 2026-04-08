@@ -21,6 +21,7 @@ Traditional hybrid frameworks (like React Native) rely on a **Bridge** to commun
 * **🌍 Run Anywhere:** One codebase for PWA, SPA, Electron, Capacitor, or any WebView on Android/iOS.
 
 ---
+#### <a href="https://zenith-gap.vercel.app">Other advantages click here </a>
 
 ## 🛠 Integrated API Suite
 Zenith.js packs a massive amount of power into a microscopic footprint:
