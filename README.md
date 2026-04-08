@@ -46,7 +46,7 @@ Zenith.js packs a massive amount of power into a microscopic footprint:
 ## 🎨 ZNative: The Bridge Killer
 ZNative allows you to describe your UI and logic in a single, high-performance template. No JSX, no Virtual DOM diffing overhead.
 
-<pre><ZNative>
+<pre><code><ZNative>
   <StyleSheet>
     body { background: #141414; color: gold; }
     .btn { border-left: 4px solid goldenrod; background: #282828; }
@@ -66,7 +66,7 @@ ZNative allows you to describe your UI and logic in a single, high-performance t
       m.value++;
     });
   </JS>
-</ZNative></pre>
+</ZNative></code></pre>
 
 TUTORIAL SITE:
 https://zenith-tutorial-site.vercel.app/
