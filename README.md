@@ -1,13 +1,72 @@
-<h1>Zenith.js</h1>
-<h3>STOP BUILDING BRIDGES!!!</h3>
-<h3>START BUILDING APPS THAT WORK NATIVE LIKE ANYWHERE</h3>
-<h3>ALL WITH ONE CODEBASE</h3>
-Zenith.js is a micro clientside os Framework with masive capabilities
-Micro: it is small download size less than 80kb
-Self-contained: Contains everything that a pwa or spa will need
-Simple: made from just js html and css
-Powerfull: Abstracts everything a pwa or spa needs with both raw and automated control
-Beginner-friendly: Its So simple that with adequate practice it should take about a week to learn
+# 🌌 Zenith.js
+### **STOP BUILDING BRIDGES. START BUILDING APPS.**
+**The High-Performance, Sub-80kb OS Framework for the Modern Web.**
+
+---
+
+## 🚀 The Zenith Philosophy
+Traditional hybrid frameworks (like React Native) rely on a **Bridge** to communicate between JavaScript and the device. This creates a "performance tax"—latency, bloat, and complexity. 
+
+**Zenith.js** is built differently. It is a **Zero-Footprint, Multi-Threaded Kernel** for web applications. It provides direct, synchronous, and high-speed access to hardware, UI binding, and background processing—all without a compiler, a bundler, or a bridge.
+
+> *"The web is powerful enough to run native apps. Zenith.js is the proof."*
+
+---
+
+## ✨ Key Advantages
+* **⚡ Ultra-Lightweight:** Less than **80kb** total. Faster than a single "Hello World" React component.
+* **🧵 True Multi-Threading:** Built-in `Thread` and `SubProcess` modules for heavy background logic.
+* **📱 ZNative Engine:** A revolutionary declarative templating engine that feels like writing native code.
+* **🔋 Batteries Included:** 40+ Integrated APIs including Camera, Video/Audio Recording, IndexedDB, and 2-way Data Binding.
+* **🌍 Run Anywhere:** One codebase for PWA, SPA, Electron, Capacitor, or any WebView on Android/iOS.
+
+---
+
+## 🛠 Integrated API Suite
+Zenith.js packs a massive amount of power into a microscopic footprint:
+
+### **Hardware & Media**
+* **Camera & VideoRecorder:** Real-time, configurable native camera feeds.
+* **Microphone & AudioRecorder:** Stream-based, high-fidelity audio capture.
+* **APP API:** Access vibrations, notifications, and device hardware specs directly.
+
+### **Performance & System**
+* **Threads & SubProcess:** True background processing and sandboxed environments.
+* **Clock:** High-precision render loops for games and real-time graphics.
+* **Binary & Stream:** Simplified ArrayBuffer and real-time data streaming.
+
+### **State & UI Logic**
+* **BindingManager:** Automated, hyper-reactive 2-way data binding.
+* **Router & RouteWrapper:** Advanced state-aware routing with Auth-guards.
+* **FileManager:** Native-style file imports/exports and storage management.
+* **Database:** In-memory DB integrated with IndexedDB for persistence.
+
+---
+
+## 🎨 ZNative: The Bridge Killer
+ZNative allows you to describe your UI and logic in a single, high-performance template. No JSX, no Virtual DOM diffing overhead.
+
+<pre><ZNative>
+  <StyleSheet>
+    body { background: #141414; color: gold; }
+    .btn { border-left: 4px solid goldenrod; background: #282828; }
+  </StyleSheet>
+
+  <TH2>Zenith Counter</TH2>
+  <PushButton class="btn" id="inc">
+    Count: <Bind>count</Bind>
+  </PushButton>
+
+  <JS>
+    // Direct, synchronous control
+    const m = Zenith.$bind("count");
+    m.value = 0;
+    
+    Z.DOM.select("#inc").on("click", () => {
+      m.value++;
+    });
+  </JS>
+</ZNative></pre>
 
 TUTORIAL SITE:
 https://zenith-tutorial-site.vercel.app/
