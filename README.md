@@ -402,5 +402,5 @@ List Of Modules or APIs in Zenith.js
 
 <h3>Zenith.js Now Has all in one templating engine with html and znative support</h3>
 
-All under 80kb
+All in 80.8kb
 ===============================
